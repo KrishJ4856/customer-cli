@@ -31,4 +31,5 @@ You can play around with this cli app, follow these steps:
 1. Clone this repoitory.
 2. Create a `.env` file in the root directory of the project.
 3. Add an environment variable in this `.env` file with the name of `MONGO_URI=<connection_string>` and replace `connection_string` with your mongodb connection string.
-4. You are now ready to play around and use this cli tool.
+4. The last step is to run this command: `npm i -g .`
+5. You are now ready to play around and use this cli tool.
