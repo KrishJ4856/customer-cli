@@ -10,4 +10,3 @@ Building this tool all by myself from scratch helped me learn a lot of new thing
 
 To create a customer, run `customercli create`. Then, type in the name, email and phone number of the customer to create one in the database
 
-![Link Name](file:///C:/Desktop/create.png)
