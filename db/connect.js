@@ -11,7 +11,7 @@ async function connectDB(){
             useNewUrlParser: true,
             useUnifiedTopology: true,
         })
-        console.log(chalk.greenBright.bold('Successfully connected to DB!'))
+        // console.log(chalk.greenBright.bold('Successfully connected to DB!'))
     } catch (error) {
         console.log(chalk.red.bold('Connection to the database failed. Please try again later.'))
         mongoose.disconnect()

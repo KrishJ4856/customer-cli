@@ -1,13 +1,10 @@
 {
-  "name": "customer-cli-crud",
+  "name": "customer-cli-app",
   "version": "1.0.0",
   "description": "This is my first cli app. It's a mongodb + nodejs crud based cli.",
   "exports": "./index.js",
   "scripts": {
     "start": "node index.js"
-  },
-  "bin": {
-    "mycustomcommand": "index.js"
   },
   "author": "KrishJ4856",
   "license": "MIT",
@@ -18,5 +15,8 @@
     "inquirer": "^8.0.0",
     "mongoose": "^7.4.1"
   },
-  "type": "module"
+  "type": "module",
+  "bin": {
+    "customercli": "index.js"
+  }
 }
