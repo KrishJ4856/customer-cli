@@ -4,5 +4,9 @@ This is my first cli app using NodeJS. It is a CRUD Functionality cli tool using
 
 Building this tool all by myself from scratch helped me learn a lot of new things like working with several cli building tools including chalk, inquirer, commander and also helped me revise some backend development concepts I had lost touch with.
 
-## How does it work?
+## What can it do?
+
+## Creating a customer
+
+To create a customer, run `customercli create`. Then, type in the name, email and phone number of the customer to create one in the database
 
